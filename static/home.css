@@ -1,0 +1,96 @@
+body,head,html {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2f33;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2f33;
+    color: #00ff00;
+  }
+  
+  nav a {
+    color: #00ff00;
+    text-decoration: none;
+    transition:all 0.3s;
+  }
+  
+  .nav-message {
+    justify-content: space-between;
+    display: flex;
+    padding: 40px;
+    margin-left: 70px;
+  }
+  
+  .nav-categories {
+    display: flex;
+  }
+  
+  .nav-categories a {
+    padding: 40px;
+  }
+  
+  .nav-dashboard {
+    padding: 40px;
+    margin-right: 70px;
+  }
+  
+  .nav-dashboard button {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+    background-color:transparent;
+    color: #fff;
+    border: 1px solid #00ff00;
+    border-radius: 6px;
+    transition:all .5s ease-in-out 0s;
+  }
+  
+  .nav-dashboard button:hover {
+    color: BLACK;
+    background-color: #00ff00;
+  }
+  
+  nav a:hover {
+    color: #008000;
+  }
+  
+  .nav-dashboard a:hover {
+    color: BLACK;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 10px;
+      color: #212529;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background: #212529;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background: #00ff00;
+      border-radius: 10px;
+  }
+  
+  ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #212529;
+      opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #212529;
+  }
+  
+  ::-ms-input-placeholder {
+      /* Microsoft Edge  */
+      color: #212529;
+  }
